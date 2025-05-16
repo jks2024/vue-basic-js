@@ -12,6 +12,10 @@ import UserCard from "./pages/UserCard.vue";
 import ChildComponent from "./components/ChildComponent.vue";
 import News from "./pages/News.vue";
 import EventRef from "./components/EventRef.vue";
+import SignUp from "./pages/Signup.vue";
+import EventHandle from "./components/EventHandle.vue";
+import SelectBox from "./components/SelectBox.vue";
+import ArrayRender from "./components/ArrayRender.vue";
 //import { ref } from "vue";
 // const message = ref("");
 
@@ -42,7 +46,11 @@ import EventRef from "./components/EventRef.vue";
   <p>자식에게 받은 메시지: {{ message }}</p>
   <ChildComponent @send-message="handleMessage" /> -->
   <!-- <News /> -->
-  <EventRef />
+  <!-- <EventRef /> -->
+  <!-- <SignUp /> -->
+  <!-- <EventHandle /> -->
+  <!-- <SelectBox /> -->
+  <ArrayRender />
 </template>
 
 <style scoped>
